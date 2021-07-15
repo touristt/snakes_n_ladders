@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes n Ladders</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="side">
+            <div id="players"></div> 
+            <button id="rollButton" onClick="rollTheDice()" disabled>Player_<span></span> Roll [spacebar]</button>
+            <div id="dice" ></div>
+            <div id="win" ></div>
+        </div>
+        <div id="grid">
+            <table><tbody></tbody></table>
+        </div>
+    </main>
+    <script src="scripts/Ladder.js"></script>
+    <script src="scripts/Snake.js"></script>
+    <script src="scripts/Player.js"></script>
+    <script src="scripts/ColorPicker.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
